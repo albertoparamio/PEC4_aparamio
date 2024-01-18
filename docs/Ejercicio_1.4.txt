@@ -1,0 +1,54 @@
+Los resultados obtenidos en los tiempos de ejecución han sido los siguientes:
+- integrar_csv_en_dataframe('data'): 2.954 segundos
+- integrar_csv_en_dict_por_filas('data'): 35.458 segundos
+- integrar_csv_en_dict_por_columnas('data'): 3.887 segundos
+
+Se puede ver que la función integrar_csv_en_dataframe() es la más eficiente. 
+Después viene integrar_csv_en_dict_por_columnas() que es algo menos 
+eficiente, pero no mucho. Finalmente tenemos la función 
+integrar_csv_en_dict_por_filas() que es la menos eficiente con diferencia que
+cualquiera de las otras dos (diez veces menos). Por este motivo descartamos 
+el uso de la función integrar_csv_en_dict_por_filas().
+
+La eficiencia entre convertir un archivo CSV en un DataFrame y en un diccionario 
+depende del uso específico que se planea darle a los datos y de la estructura 
+del archivo CSV en sí.
+
+    Convertir a DataFrame (Primera función):
+
+        Ventajas:
+            Los DataFrames de pandas están optimizados para realizar operaciones 
+            eficientes en datos tabulares. Se pueden aprovechar las funciones y 
+            métodos incorporados de pandas para realizar operaciones complejas, 
+            filtrados y análisis de datos de manera eficiente.
+            El acceso a datos específicos es más sencillo usando notación de 
+            columnas y filas en un DataFrame.
+
+        Desventajas:
+            Los DataFrames consumen más memoria en comparación con un 
+            diccionario. Para un archivo CSV grande (como uno de 10GB), cargar 
+            todo el archivo en un DataFrame puede requerir una cantidad 
+            significativa de memoria RAM, lo que podría llevar a problemas de 
+            rendimiento o incluso a errores de memoria.
+
+    Convertir a Diccionario (Segunda función):
+
+        Ventajas:
+            Los diccionarios pueden ser más eficientes en términos de memoria, 
+            ya que solo almacenan las columnas necesarias y sus valores 
+            asociados. Esto es particularmente beneficioso cuando el DataFrame 
+            es muy grande y solo se necesita acceder a columnas específicas.
+
+        Desventajas:
+            La manipulación de datos puede ser menos conveniente en comparación 
+            con un DataFrame, ya que las operaciones y funciones integradas de 
+            pandas no estarán disponibles directamente. Sin embargo, se pueden 
+            realizar operaciones específicas mediante iteración sobre el 
+            diccionario.
+
+Justificación:
+
+    Para un archivo CSV de 10GB, la conversión a DataFrame podría ser más lenta 
+    y requerir más memoria, lo que podría afectar el rendimiento del sistema. Si 
+    solo se necesita acceder a algunas columnas específicas y deseas minimizar
+    el uso de memoria, la conversión a un diccionario podría ser más eficiente.

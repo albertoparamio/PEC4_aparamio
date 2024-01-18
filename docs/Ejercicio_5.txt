@@ -1,0 +1,23 @@
+En la gráfica del apartado 4.1., en la que se muestra el número total de 
+series por año, se puede ver que entre los años 1940 y 2000, una tendencia 
+lineal de crecimiento. El año 2000 supone un punto de inflexión, ya que a 
+partir de éste, la tendencia de crecimiento pasa a ser geométrica, siendo el 
+año 2020 donde se produce el pico de series producidas, con un total de 28895. 
+Los años 2021, 2022 y 2023 suponen una caída drástica en la producción. 
+Esto pudiese deberse a la pandemia de covid 19 y a la huelga de guionistas que
+se produjo en los años 2022 y 2023.
+En la gráfica del apartado 4.2. se puede observar la evolución en el número de 
+las producciones por tipos. Se puede observar que el mayor crecimiento se ha 
+producido en las series de de tipo scripted (Guionizadas). 
+Las series "scripted" se refieren a aquellas en las que el contenido está 
+completamente guionizado y planeado de antemano. Cada episodio sigue un guion 
+preestablecido, y los actores interpretan personajes con líneas de diálogo 
+escritas. Estos programas suelen tener una narrativa continua a lo largo de la 
+temporada o la serie, con personajes que evolucionan y tramas que se desarrollan 
+a lo largo del tiempo.
+Este aumento bien puede deberse al auge de las plataformas de streaming 
+(Netflix, HBO, Prime Video y otras).
+Finalmente, en el apartado 4.3. podemos observar el porcentaje de series por 
+géneros, siendo los dramas con un 22% los preferidos en las producciones, 
+aunque le siguen de cerca los documentales y las comedias con un 17% y un 15%
+respectivamente.
